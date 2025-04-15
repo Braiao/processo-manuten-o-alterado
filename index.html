@@ -24,29 +24,29 @@
 
 	<div class="escolhas col" id="escolher">
 
-        Selecione
-        <select style="margin-top: 10px" id="select_mao" class="select" aria-label="opções" onchange="mudou()">
-            <option value="1">👆</option>
-            <option value="2">👆🏿</option>
-            <option value="3">👆🏾</option>
-            <option value="4">👆🏽</option>
-            <option value="5">👆🏼</option>
-            <option value="6">👆🏻</option>
-        </select>
-        <hr class="style-six" />
-        Atividade
+		Selecione
+		<select style="margin-top: 10px" id="select_mao" class="select" aria-label="opções" onchange="mudou()">
+			<option value="1">👆</option>
+			<option value="2">👆🏿</option>
+			<option value="3">👆🏾</option>
+			<option value="4">👆🏽</option>
+			<option value="5">👆🏼</option>
+			<option value="6">👆🏻</option>
+		</select>
+		<hr class="style-six" />
+		Atividade
 
-        <br />
-        <input id="input_mostrar" onclick="mostrar()" style="margin-top: 10px" type="checkbox"> Mostrar
-    </div>
-    <div onclick="costumizar()" class="costumizar" id="costumize">
-        Customizar
-    </div>
-    <div class="mostrar_atividade" id="mostrar_atividade">
-        Atividade
-    </div>
+		<br />
+		<input id="input_mostrar" onclick="mostrar()" style="margin-top: 10px" type="checkbox"> Mostrar
+	</div>
+	<div onclick="costumizar()" class="costumizar" id="costumize">
+		Customizar
+	</div>
+	<div class="mostrar_atividade" id="mostrar_atividade">
+		Atividade
+	</div>
 
-    <a href="#diagrama_scrum" class="subir bot_voltar" id="voltar">👆️ Diagrama</a>
+	<a href="#diagrama_scrum" class="subir bot_voltar" id="voltar">👆️ Diagrama</a>
 	<h1>Processo de Manutenção de Software da FSA - IFSP/PEP</h1>
 	<div id="diagrama_scrum">
 		<a href="#topico_elencar_necessidades" id="elencar_necessidades" class="clickable round green"></a>
@@ -102,22 +102,27 @@
 				</li>
 			</ul>
 			<h2>Tarefas</h2>
+			<ul>
+				<li><strong>A1.1</strong> Efetuar o levantamento das necessidades
+					de mudanças com os <i>stakeholders</i> usando as técnicas escolhidas.</li>
+				<li><strong>A1.2</strong> Analisar a viabilidade das necessidades de mudança que foram levantadas.</li>
+				<li><strong>A1.3</strong> Elaborar os requisitos de mudança para uso posterior.</li>
+			</ul>
+
 			<h2>Exemplos de tipos de manutenção</h2>
 			<p>
 				Para auxiliar os solicitantes e manutenedores no correto registro das necessidades de mudança,
 				segue abaixo a descrição dos principais tipos de manutenção de software:
 			</p>
 			<ul>
-				<li><strong>Manutenção Corretiva:</strong> Corrige falhas identificadas no sistema em produção, como bugs ou erros de funcionamento.</li>
-				<li><strong>Manutenção Evolutiva:</strong> Introduz novas funcionalidades ou melhorias solicitadas pelos usuários para atender a novas necessidades.</li>
-				<li><strong>Manutenção Preventiva:</strong> Realiza ajustes visando melhorar a estrutura do código, desempenho ou facilitar futuras manutenções.</li>
-				<li><strong>Manutenção Adaptativa:</strong> Altera o sistema para adaptá-lo a novos ambientes operacionais, como atualizações de sistema, hardware ou software.</li>
-			</ul>
-			<ul>
-				<li><strong>A1.1</strong> Efetuar o levantamento das necessidades
-					de mudanças com os <i> stakeholders</i> usando as técnicas escolhidas.</li>
-				<li><strong>A1.2</strong> Analisar a viabilidade das necessidades de mudança que foram levantadas.</li>
-				<li><strong>A1.3</strong> Elaborar os requisitos de mudança para uso posterior.</li>
+				<li><strong>Manutenção Corretiva:</strong> Corrige falhas identificadas no sistema em produção, como
+					bugs ou erros de funcionamento.</li>
+				<li><strong>Manutenção Evolutiva:</strong> Introduz novas funcionalidades ou melhorias solicitadas pelos
+					usuários para atender a novas necessidades.</li>
+				<li><strong>Manutenção Preventiva:</strong> Realiza ajustes visando melhorar a estrutura do código,
+					desempenho ou facilitar futuras manutenções.</li>
+				<li><strong>Manutenção Adaptativa:</strong> Altera o sistema para adaptá-lo a novos ambientes
+					operacionais, como atualizações de sistema, hardware ou software.</li>
 			</ul>
 			<h2>Recursos (ferramentas, métodos, técnicas)</h2>
 			<ul>
@@ -163,7 +168,8 @@
 			<p>
 				O Product Owner, a partir dos requisitos de mudanças coletados,
 				irá estruturá-los conforme um padrão previamente definido (ex.: história de usuário, item técnico),
-				categorizar os demais requisitos, e realizar a validação com os stakeholders antes do início das Sprints.
+				categorizar os demais requisitos, e realizar a validação com os stakeholders antes do início das
+				Sprints.
 			</p>
 			<h2>Responsáveis</h2>
 			<p>
@@ -184,7 +190,8 @@
 			</ul>
 			<h2>Tarefas</h2>
 			<ul>
-				<li><strong>A2.1</strong> Estruturar os requisitos de mudança coletados conforme um padrão previamente definido (ex.: história de usuário, caso de uso, item técnico, etc.).</li>
+				<li><strong>A2.1</strong> Estruturar os requisitos de mudança coletados conforme um padrão previamente
+					definido (ex.: história de usuário, caso de uso, item técnico, etc.).</li>
 				<li><strong>A2.2</strong> Categorizar os requisitos de mudança restantes como não funcional, erro ou
 					etc.</li>
 				<li><strong>A2.3</strong> Definir prioridade dos itens do Product Backlog.</li>
@@ -192,7 +199,8 @@
 				<li><strong>A2.5</strong> Estimar o esforço necessário para cada item do Product Backlog.</li>
 				<li><strong>A2.6</strong> Elaborar o Product Backlog de acordo com o <strong>
 						<a href="#topico_anexo1">ANEXO 1</a></strong> ou outro template previamente definido.</li>
-				<li><strong>A2.7</strong> Validar o Product Backlog com os stakeholders para garantir que os itens priorizados estão de acordo com as necessidades e expectativas antes do início da Sprint.</li>
+				<li><strong>A2.7</strong> Validar o Product Backlog com os stakeholders para garantir que os itens
+					priorizados estão de acordo com as necessidades e expectativas antes do início da Sprint.</li>
 			</ul>
 			<h2>Recursos (ferramentas, métodos, técnicas)</h2>
 			<ul>
@@ -210,25 +218,31 @@
 
 			<h2>Materiais de apoio e referências</h2>
 			<p>
-				CAMARGO, Robson. <strong>Quer estimar melhor seu projeto? Invista na técnica Planning Poker</strong>. Blog do Robson Camargo, 17 mar. 2021. Disponível em: 
+				CAMARGO, Robson. <strong>Quer estimar melhor seu projeto? Invista na técnica Planning Poker</strong>.
+				Blog do Robson Camargo, 17 mar. 2021. Disponível em:
 				<a
 					href="https://robsoncamargo.com.br/blog/Quer-estimar-melhor-seu-projeto-Invista-na-tecnica-Planning-Poker">
 					https://robsoncamargo.com.br/blog/Quer-estimar-melhor-seu-projeto-Invista-na-tecnica-Planning-Poker
 				</a>. Acesso em: 24 mar. 2023.
 			</p>
 			<p>
-				JÚNIOR, Orlando. <strong>Aprenda o que fazer para estimar o esforço de desenvolvimento de Software.</strong> Disponível em: 
+				JÚNIOR, Orlando. <strong>Aprenda o que fazer para estimar o esforço de desenvolvimento de
+					Software.</strong> Disponível em:
 				<a
-					href="https://blog.cronapp.io/esforco-desenvolvimento-de-software/">https://blog.cronapp.io/esforco-desenvolvimento-de-software/</a>. Acesso em: 12 mai. 2023.
+					href="https://blog.cronapp.io/esforco-desenvolvimento-de-software/">https://blog.cronapp.io/esforco-desenvolvimento-de-software/</a>.
+				Acesso em: 12 mai. 2023.
 			</p>
 			<p>
-				SCHWABER, Ken; SUTHERLAND, Jeff. <strong>The Scrum Guide</strong>. 2019. Scrum.org. Disponível em: 
-				<a href="https://www.scrum.org/resources/scrum-guide">https://www.scrum.org/resources/scrum-guide</a>. Acesso em: 24 mar. 2023.
+				SCHWABER, Ken; SUTHERLAND, Jeff. <strong>The Scrum Guide</strong>. 2019. Scrum.org. Disponível em:
+				<a href="https://www.scrum.org/resources/scrum-guide">https://www.scrum.org/resources/scrum-guide</a>.
+				Acesso em: 24 mar. 2023.
 			</p>
 			<p>
-				XP EDUCACAO. <strong>Ferramentas Scrum:</strong> Conheça as principais para a gestão de projetos ágeis. Blog XP Educacao, 20 ago. 2020. Disponível em: 
+				XP EDUCACAO. <strong>Ferramentas Scrum:</strong> Conheça as principais para a gestão de projetos ágeis.
+				Blog XP Educacao, 20 ago. 2020. Disponível em:
 				<a
-					href="https://blog.xpeducacao.com.br/ferramentas-scrum/">https://blog.xpeducacao.com.br/ferramentas-scrum/</a>. Acesso em: 24 mar. 2023.
+					href="https://blog.xpeducacao.com.br/ferramentas-scrum/">https://blog.xpeducacao.com.br/ferramentas-scrum/</a>.
+				Acesso em: 24 mar. 2023.
 			</p>
 		</section>
 
@@ -268,7 +282,8 @@
 				<li><strong>A3.6</strong> Analisar o impacto dos novos itens do Product Backlog.</li>
 				<li><strong>A3.7</strong> Estimar o esforço necessário para cada novo item do Product Backlog.</li>
 				<li><strong>A3.8</strong> Atualizar o Product Backlog.</li>
-				<li><strong>A3.9</strong> Reavaliar prioridade, impacto e estimativas de esforço de itens já existentes no Product Backlog com base em aprendizados da última sprint.</li>
+				<li><strong>A3.9</strong> Reavaliar prioridade, impacto e estimativas de esforço de itens já existentes
+					no Product Backlog com base em aprendizados da última sprint.</li>
 			</ul>
 			</ul>
 			<h2>Recursos (ferramentas, métodos, técnicas)</h2>
@@ -286,15 +301,13 @@
 			</ul>
 			<h2>Material de apoio e referências</h2>
 			<p>
-				PRODUCT Backlog: O que é e como criar? 2021. <strong>Labone</strong>. Disponível em: 
-				<a
-					href="https://www.laboneconsultoria.com.br/product-backlog/">https://www.laboneconsultoria.com.br/product-backlog/
+				PRODUCT Backlog: O que é e como criar? 2021. <strong>Labone</strong>. Disponível em:
+				<a href="https://www.laboneconsultoria.com.br/product-backlog/">https://www.laboneconsultoria.com.br/product-backlog/
 				</a>. Acesso em: 24 mar. 2023.
 			</p>
 			<p>
-				REFINAMENTO e Atualização: Por que Aplicar? [<em>s. d.</em>]. <strong>PIM-GO</strong>. Disponível em: 
-				<a
-					href="https://pim-go.com/sprints-do-scrum/refinamento-e-atualizacao/">https://pim-go.com/sprints-do-scrum/refinamento-e-atualizacao/
+				REFINAMENTO e Atualização: Por que Aplicar? [<em>s. d.</em>]. <strong>PIM-GO</strong>. Disponível em:
+				<a href="https://pim-go.com/sprints-do-scrum/refinamento-e-atualizacao/">https://pim-go.com/sprints-do-scrum/refinamento-e-atualizacao/
 				</a>. Acesso em: 24 mar. 2023.
 			</p>
 
@@ -309,7 +322,7 @@
 				O Scrum Team deverá efetuar reuniões de até no máximo 8 horas,
 				onde será planejado como será o trabalho e a divisão dos itens do Product
 				Backlog para serem implementados durante a Sprint. O tempo de uma Sprint pode
-				variar de 2 até 4 semanas.
+				variar de 1 até 4 semanas.
 			</p>
 			<h2>Responsáveis</h2>
 			<p>
@@ -319,7 +332,7 @@
 			<h3>Entrada</h3>
 			<ul>
 				<li>Product Backlog.</li>
-				<li>Relatório da Sprint (a partir da segunda Sprint).</li>
+				<li>Feedback da revisão</li>
 			</ul>
 			<h3>Saída</h3>
 			<ul>
@@ -329,7 +342,8 @@
 			<h2>Tarefas</h2>
 			<ul>
 				<li><strong>A4.1</strong> Caso seja o primeiro encontro,
-					é necessário definir a duração de todas as <i>sprints</i> do processo de manutenção.</li>
+					é necessário definir a duração de todas as <i>sprints</i> do processo de manutenção. Além de definir
+					o cronograma para reuniões periódicas e revisão</li>
 				<li><strong>A4.2</strong> Definir quais atividades serão feitas na sprint atual de acordo
 					com as prioridades estabelecidas no Product Backlog.</li>
 				<li><strong>A4.3</strong> Selecionar os itens do Product Backlog relevantes para o objetivo da Sprint.
@@ -356,26 +370,24 @@
 
 			<h2>Material de apoio e referências</h2>
 			<p>
-				CARVALHO, Técia. <strong>O que é Planning Poker?</strong> Aprenda seu funcionamento junto ao Scrum!. nov. 2019. Disponível em: 
-				<a
-					href="https://www.voitto.com.br/blog/artigo/planning-poker">https://www.voitto.com.br/blog/artigo/planning-poker
+				CARVALHO, Técia. <strong>O que é Planning Poker?</strong> Aprenda seu funcionamento junto ao Scrum!.
+				nov. 2019. Disponível em:
+				<a href="https://www.voitto.com.br/blog/artigo/planning-poker">https://www.voitto.com.br/blog/artigo/planning-poker
 				</a>. Acesso em: 10 mar. 2023.
 			</p>
-			<p>O QUE é o trello: conheça recursos, usos e muito mais. [<em>s. d.</em>]. Disponível em: 
-				<a 
-					href="https://trello.com/tour">https://trello.com/tour
+			<p>O QUE é o trello: conheça recursos, usos e muito mais. [<em>s. d.</em>]. Disponível em:
+				<a href="https://trello.com/tour">https://trello.com/tour
 				</a>. Acesso em: 03 abr. 2024
 			</p>
 			<p>
-				JÚNIOR, Orlando. <strong>Aprenda o que fazer para estimar o esforço de desenvolvimento de Software.</strong> CronoApp, 2019. Disponível em:
-				<a
-					href="https://blog.cronapp.io/esforco-desenvolvimento-de-software/">https://blog.cronapp.io/esforco-desenvolvimento-de-software/
+				JÚNIOR, Orlando. <strong>Aprenda o que fazer para estimar o esforço de desenvolvimento de
+					Software.</strong> CronoApp, 2019. Disponível em:
+				<a href="https://blog.cronapp.io/esforco-desenvolvimento-de-software/">https://blog.cronapp.io/esforco-desenvolvimento-de-software/
 				</a>. Acesso em: 12 mai. 2023.
 			</p>
 			<p>
-				WEST, Dave. <strong>Planejamento do Sprint</strong>. [2018]. Disponível em: 
-				<a
-					href="https://www.atlassian.com/br/agile/scrum/sprint-planning">https://www.atlassian.com/br/agile/scrum/sprint-planning
+				WEST, Dave. <strong>Planejamento do Sprint</strong>. [2018]. Disponível em:
+				<a href="https://www.atlassian.com/br/agile/scrum/sprint-planning">https://www.atlassian.com/br/agile/scrum/sprint-planning
 				</a>. Acesso em: 10 mar. 2023.
 			</p>
 		</section>
@@ -425,9 +437,9 @@
 			</ul>
 			<h2>Material de apoio e referências</h2>
 			<p>
-				SCHWABER, Ken; SUTHERLAND, Jeff. <strong>The Scrum Guide:</strong> The Definitive Guide to Scrum: The Rules of the Game. [<em>S. l.</em>]. 2020. Disponível em: 
-				<a
-					href="https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-US.pdf">https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-US.pdf
+				SCHWABER, Ken; SUTHERLAND, Jeff. <strong>The Scrum Guide:</strong> The Definitive Guide to Scrum: The
+				Rules of the Game. [<em>S. l.</em>]. 2020. Disponível em:
+				<a href="https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-US.pdf">https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-US.pdf
 				</a>. Acesso em : 23 mar. 2023.
 			</p>
 		</section>
@@ -479,15 +491,14 @@
 			</ul>
 			<h2>Material de apoio e referências</h2>
 			<p>
-				SCHWABER, Ken; SUTHERLAND, Jeff. <strong>The Scrum Guide:</strong> The Definitive Guide to Scrum: The Rules of the Game. [<em>S. l.</em>]. 2020. Disponível em: 
-				<a
-					href="https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-US.pdf">https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-US.pdf
+				SCHWABER, Ken; SUTHERLAND, Jeff. <strong>The Scrum Guide:</strong> The Definitive Guide to Scrum: The
+				Rules of the Game. [<em>S. l.</em>]. 2020. Disponível em:
+				<a href="https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-US.pdf">https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-US.pdf
 				</a>. Acesso em : 23 mar. 2023.
 			</p>
 			<p>
-				WEST, Dave. <strong>Planejamento do Sprint</strong>. [2018]. Disponível em: 
-				<a
-					href="https://www.atlassian.com/br/agile/scrum/sprint-planning">https://www.atlassian.com/br/agile/scrum/sprint-planning
+				WEST, Dave. <strong>Planejamento do Sprint</strong>. [2018]. Disponível em:
+				<a href="https://www.atlassian.com/br/agile/scrum/sprint-planning">https://www.atlassian.com/br/agile/scrum/sprint-planning
 				</a>. Acesso em: 10 mar. 2023.
 			</p>
 		</section>
@@ -517,16 +528,17 @@
 			</ul>
 			<h3>Saída</h3>
 			<ul>
-				<li> Relatório da Sprint.</li>
+				<li> Feedback da revisão.</li>
 			</ul>
 			<h2>Tarefas</h2>
 			<ul>
 				<li><strong>A7.1</strong> Revisar e apresentar as entregas feitas pelo Scrum Team.</li>
 				<li><strong>A7.2</strong> Coletar Feedback do <i> Product Owner</i> e <i>Stakeholders</i>.</li>
-				<li><strong>A7.3</strong> Validar a entrega de acordo com os requisitos necessários para conclusão da
+				<li><strong>A7.3</strong> Avaliação do pontos altos e baixos da equipe visando a melhora na próxima <i>Sprint.</i></li>
+				<li><strong>A7.4</strong> Validar a entrega de acordo com os requisitos necessários para conclusão da
 					<i>Sprint.</i>
 				</li>
-				<li><strong>A7.4</strong> Verificar se é necessário o replanejamento da Sprint.</li>
+				<li><strong>A7.5</strong> Verificar se é necessário o replanejamento da Sprint.</li>
 			</ul>
 			<h2>Recursos (ferramentas, métodos, técnicas)</h2>
 			<ul>
@@ -540,9 +552,9 @@
 			</ul>
 			<h2>Material de apoio e referências</h2>
 			<p>
-				SCHWABER, Ken; SUTHERLAND, Jeff. <strong>The Scrum Guide:</strong> The Definitive Guide to Scrum: The Rules of the Game. [<em>S. l.</em>]. 2020. Disponível em: 
-				<a
-					href="https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-US.pdf">https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-US.pdf
+				SCHWABER, Ken; SUTHERLAND, Jeff. <strong>The Scrum Guide:</strong> The Definitive Guide to Scrum: The
+				Rules of the Game. [<em>S. l.</em>]. 2020. Disponível em:
+				<a href="https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-US.pdf">https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-US.pdf
 				</a>. Acesso em : 23 mar. 2023.
 			</p>
 		</section>
@@ -605,9 +617,9 @@
 			</ul>
 			<h2>Material de apoio e referências</h2>
 			<p>
-				SCHWABER, Ken; SUTHERLAND, Jeff. <strong>The Scrum Guide:</strong> The Definitive Guide to Scrum: The Rules of the Game. [<em>S. l.</em>]. 2020. Disponível em: 
-				<a
-					href="https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-US.pdf">https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-US.pdf
+				SCHWABER, Ken; SUTHERLAND, Jeff. <strong>The Scrum Guide:</strong> The Definitive Guide to Scrum: The
+				Rules of the Game. [<em>S. l.</em>]. 2020. Disponível em:
+				<a href="https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-US.pdf">https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-US.pdf
 				</a>. Acesso em : 23 mar. 2023.
 			</p>
 		</section>
@@ -632,7 +644,7 @@
 			<h2>Entradas e saídas</h2>
 			<h3>Entrada</h3>
 			<ul>
-				<li> Relatório da Sprint.</li>
+				<li> Feedback da revisão.</li>
 			</ul>
 			<h3>Saída</h3>
 			<ul>
@@ -684,13 +696,14 @@
 			</ul>
 			<h2>Material de apoio e referências</h2>
 			<p>
-				ALTEXSOFT INC. Software Documentation: Types and Best Practices. <strong>Prototypr.io</strong>. 2018. Disponível em: 
-				<a
-					href="https://blog.prototypr.io/software-documentation-types-and-best-practices-1726ca595c7f">https://blog.prototypr.io/software-documentation-types-and-best-practices-1726ca595c7f
+				ALTEXSOFT INC. Software Documentation: Types and Best Practices. <strong>Prototypr.io</strong>. 2018.
+				Disponível em:
+				<a href="https://blog.prototypr.io/software-documentation-types-and-best-practices-1726ca595c7f">https://blog.prototypr.io/software-documentation-types-and-best-practices-1726ca595c7f
 				</a>. Acesso em: 9 mar. 2023.
 			</p>
 			<p>
-				ISO/IEC. <strong>Guide to the Software Engineering Body of Knowledge (SWEBOK), Version 3.0.</strong> International Organization for Standardization, 2014.
+				ISO/IEC. <strong>Guide to the Software Engineering Body of Knowledge (SWEBOK), Version 3.0.</strong>
+				International Organization for Standardization, 2014.
 			</p>
 		</section>
 
@@ -718,7 +731,7 @@
 			<ul>
 				<li><strong>A10.1</strong> Contactar os Stakeholders.</li>
 				<li><strong>A10.2</strong> Contactar o Scrum Team.</li>
-				<li><strong>A10.3</strong> Caso haja novas necessidades de mudança, é necessário 
+				<li><strong>A10.3</strong> Caso haja novas necessidades de mudança, é necessário
 					armazenar essas novas necessidades para elencá-las posteriormente como novos
 					requisitos de mudança.</li>
 
@@ -734,20 +747,20 @@
 			</ul>
 			<h2>Material de apoio e referências</h2>
 			<p>
-				SCHWABER, Ken; SUTHERLAND, Jeff. <strong>The Scrum Guide:</strong> The Definitive Guide to Scrum: The Rules of the Game. [<em>S. l.</em>]. 2020. Disponível em: 
-				<a
-					href="https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-US.pdf">https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-US.pdf
+				SCHWABER, Ken; SUTHERLAND, Jeff. <strong>The Scrum Guide:</strong> The Definitive Guide to Scrum: The
+				Rules of the Game. [<em>S. l.</em>]. 2020. Disponível em:
+				<a href="https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-US.pdf">https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-US.pdf
 				</a>. Acesso em : 23 mar. 2023.
 			</p>
 		</section>
 
 		<section class="topic" id="topico_conferir_produto_finalizado">
-			<h1>A11. Conferir se o produto está finalizado</h1>
+			<h1>A11. Conferir se o produto está em conformidade com o solicitado</h1>
 			<a href="#diagrama_scrum" class="blue round" id="voltar">Voltar para o diagrama</a>
 			<hr />
 			<h2>Descrição</h2>
 			<p>
-				O Product Owner deve contatar os Stakeholders e verificar se o Product Backlog está
+				O Product Owner deve contatar os Stakeholders e verificar se o produto e Product Backlog estão
 				em conformidade com o solicitado pelas partes interessadas.
 			</p>
 			<h2>Responsáveis</h2>
@@ -763,11 +776,16 @@
 			</ul>
 			<h2>Tarefas</h2>
 			<ul>
-				<li><strong>A11.1</strong> Contactar os stakeholders responsáveis para agendar uma validação do produto.</li>
-				<li><strong>A11.2</strong> Verificar se o produto atende a todos os critérios de aceitação definidos pelos stakeholders.</li>
-				<li><strong>A11.3</strong> Verificar se todos os itens do Product Backlog estão concluídos ou devidamente justificados como não implementados.</li>
-				<li><strong>A11.4</strong> Utilizar um checklist de entrega final para garantir que todos os aspectos técnicos, funcionais e documentais foram contemplados.</li>
-				<li><strong>A11.5</strong> Registrar o aceite formal dos stakeholders sobre a finalização do produto.</li>
+				<li><strong>A11.1</strong> Contactar os stakeholders responsáveis para agendar uma validação do produto.
+				</li>
+				<li><strong>A11.2</strong> Verificar se o produto atende a todos os critérios de aceitação definidos
+					pelos stakeholders.</li>
+				<li><strong>A11.3</strong> Verificar se todos os itens do Product Backlog estão em conformidade com o
+					solicitado pelos stakeholders ou devidamente justificados como não implementados.</li>
+				<li><strong>A11.4</strong> Utilizar um checklist de entrega final para garantir que todos os aspectos
+					técnicos, funcionais e documentais foram contemplados.</li>
+				<li><strong>A11.5</strong> Registrar o aceite formal dos stakeholders sobre a finalização do produto
+					CASO ele esteja finalizado.</li>
 			</ul>
 			<h2>Recursos (ferramentas, métodos, técnicas)</h2>
 			<ul>
@@ -779,13 +797,13 @@
 			</ul>
 			<h2>Material de apoio e referências</h2>
 			<p>
-				SCHWABER, Ken; SUTHERLAND, Jeff. <strong>The Scrum Guide:</strong> The Definitive Guide to Scrum: The Rules of the Game. [<em>S. l.</em>]. 2020. Disponível em: 
-				<a
-					href="https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-US.pdf">https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-US.pdf
+				SCHWABER, Ken; SUTHERLAND, Jeff. <strong>The Scrum Guide:</strong> The Definitive Guide to Scrum: The
+				Rules of the Game. [<em>S. l.</em>]. 2020. Disponível em:
+				<a href="https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-US.pdf">https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-US.pdf
 				</a>. Acesso em : 23 mar. 2023.
 			</p>
 		</section>
-		
+
 		<section class="topic" id="topico_anexo1">
 			<div id="download">
 				<h1>Anexo I - Product Backlog</h1>
